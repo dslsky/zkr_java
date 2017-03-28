@@ -24,7 +24,7 @@ public class Application extends WebMvcConfigurerAdapter {
 
     @RequestMapping("/")
     String home() { 
-        //测试重定向
+        //测试重定向1
         return "redirect:countries";
     }
 }
